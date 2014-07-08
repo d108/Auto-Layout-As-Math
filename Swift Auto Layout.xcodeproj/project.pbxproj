@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65C37B9B196BAD9000D66E8D /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C37B9A196BAD9000D66E8D /* ConstraintMaker.swift */; };
+		65C37B9C196BAD9000D66E8D /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C37B9A196BAD9000D66E8D /* ConstraintMaker.swift */; };
 		65D5E30C19678BAA0094762D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D5E30B19678BAA0094762D /* AppDelegate.swift */; };
 		65D5E30E19678BAA0094762D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D5E30D19678BAA0094762D /* ViewController.swift */; };
 		65D5E31119678BAA0094762D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D5E30F19678BAA0094762D /* Main.storyboard */; };
@@ -25,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65C37B9A196BAD9000D66E8D /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
 		65D5E30619678BAA0094762D /* Swift Auto Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Auto Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D5E30A19678BAA0094762D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65D5E30B19678BAA0094762D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +83,7 @@
 				65D5E30F19678BAA0094762D /* Main.storyboard */,
 				65D5E31219678BAA0094762D /* Images.xcassets */,
 				65D5E30919678BAA0094762D /* Supporting Files */,
+				65C37B9A196BAD9000D66E8D /* ConstraintMaker.swift */,
 			);
 			path = "Swift Auto Layout";
 			sourceTree = "<group>";
@@ -210,6 +214,7 @@
 			files = (
 				65D5E30E19678BAA0094762D /* ViewController.swift in Sources */,
 				65D5E30C19678BAA0094762D /* AppDelegate.swift in Sources */,
+				65C37B9B196BAD9000D66E8D /* ConstraintMaker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65D5E31F19678BAA0094762D /* Swift_Auto_LayoutTests.swift in Sources */,
+				65C37B9C196BAD9000D66E8D /* ConstraintMaker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +405,7 @@
 				65D5E32419678BAA0094762D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65D5E32519678BAA0094762D /* Build configuration list for PBXNativeTarget "Swift Auto LayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +414,7 @@
 				65D5E32719678BAA0094762D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
